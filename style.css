@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 2rem;
+    display: flex;
+    background-color: #FEFEFF;
+    gap: 1.5rem;
+}
+.sidebar{
+    background-color: #0020ff;
+    flex: 0 0 200px;
+    color : rgb(0, 0, 0);
+    width: 200px;
+    padding: 15px;
+}
+.daire {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.main {
+    flex: 1;
+    max-width: none;
+    margin-right: 0;
+    background-color: #FEFEFF;
+}
+.main h1 {
+    font-size: 2.5rem;
+    padding: 0 1rem;
+    white-space: nowrap;
+    overflow: hidden;      
+    text-overflow: ellipsis;
+}
+
+  
+.contact {
+    margin: 10px;
+}
