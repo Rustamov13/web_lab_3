@@ -24,7 +24,7 @@ body{
 .main {
     flex: 1;
     max-width: none;
-    margin-right: 0;
+    margin-right: 500px;
     background-color: #FEFEFF;
 }
 .main h1 {
